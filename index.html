@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XD Magazine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+        }
+
+        h1, h2 {
+            color: #fff;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('/mnt/data/XD%202.png') no-repeat center center/cover; /* Logo background */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero .overlay {
+            background: linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .hero .content {
+            position: relative;
+            text-align: center;
+        }
+
+        .hero .content h1 {
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        /* About Section */
+        .about {
+            background: #34495e;
+            padding: 50px 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        /* Subtopics Section */
+        .subtopics {
+            background: #ecf0f1;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .subtopics h2 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+
+        .subtopic {
+            background: #34495e;
+            color: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .subtopic h3 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .subtopic p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        /* Footer Section */
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Welcome to XD Magazine</h1>
+            <p>Your go-to digital platform for Filipino narratives and stories.</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about">
+        <h2>About XD Magazine</h2>
+        <p>At XD, we aim to connect, entertain, and engage with our audience through rich Filipino narratives and personal stories. Our mission is to create a space for everyone to enjoy and be inspired by true Filipino experiences.</p>
+        <p>We focus on high-quality content that explores Filipino culture, history, and stories that shape the modern world. Our content includes featured articles, comedy, and narratives that resonate with our audience.</p>
+    </div>
+
+    <!-- Subtopics Section -->
+    <div class="subtopics">
+        <h2>Explore Our Subtopics</h2>
+
+        <!-- Subtopic 1 -->
+        <div class="subtopic">
+            <h3>Subtopic 1: Filipino Stories</h3>
+            <p>XD celebrates Filipino stories that span across history and culture. These stories highlight our rich heritage, bringing a deeper understanding of the Filipino way of life.</p>
+        </div>
+
+        <!-- Subtopic 2 -->
+        <div class="subtopic">
+            <h3>Subtopic 2: Gaming and Esports</h3>
+            <p>With a growing audience for gaming and esports, XD dives deep into this industry, showcasing Filipino talent and the rise of local gaming communities.</p>
+        </div>
+
+        <!-- Subtopic 3 -->
+        <div class="subtopic">
+            <h3>Subtopic 3: Technology & Innovation</h3>
+            <p>Technology is rapidly shaping our future, and XD covers the latest innovations, from cutting-edge gadgets to breakthroughs in various fields that affect Filipino lives.</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 XD Magazine. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
